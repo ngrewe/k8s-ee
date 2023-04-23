@@ -1,5 +1,5 @@
 ARG NETWORK_EE_TAG=stable-2.12
-FROM quay.io/ansible/network-ee:${NETWORK_EE_TAG}}
+FROM quay.io/ansible/network-ee:${NETWORK_EE_TAG}
 LABEL org.opencontainers.image.source=https://github.com/ngrewe/k8s-ee
 ARG HELM_VERSION=v3.11.3
 ARG KUSTOMIZE_VERSION=v5.0.1
